@@ -1,6 +1,6 @@
 Package.describe({
   name: 'huttonr:flo',
-  version: '0.0.1',
+  version: '0.1.1',
   summary: 'An intuitive event handler.',
   git: 'https://github.com/huttonr/flo',
   documentation: 'README.md'

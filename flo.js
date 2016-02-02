@@ -45,8 +45,14 @@ Flo = {
     if (!type)                    throw new Error('You must supply Flo.trigger with a specific event to trigger')
     if (typeof type !== 'string') throw new Error('Event supplied to Flo.trigger must be a string')
 
+    let found = false
     for (let e of _events) {
-      if (e.type === type) e.callback.apply(e.context || this, args)
+      if (e.type === type) {
+        e.callback.apply(e.context || this, args)
+        found = true
+      }
     }
+
+    return found
   },
 }

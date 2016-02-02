@@ -1,7 +1,7 @@
 Package.describe({
   name: 'huttonr:flo',
-  version: '0.1.1',
-  summary: 'An intuitive event handler.',
+  version: '0.1.2',
+  summary: 'An intuitive, ultra-lite event/callback system for Meteor.',
   git: 'https://github.com/huttonr/flo',
   documentation: 'README.md'
 });

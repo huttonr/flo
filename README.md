@@ -1,4 +1,7 @@
 # Flo
+
+`meteor add huttonr:flo`
+
 ### Introduction
 
 Flo is an intuitive, ultra-lite event/callback system for Meteor.

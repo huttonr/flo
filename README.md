@@ -62,6 +62,8 @@ Flo supplies three basic functions:
 #### `Flo.register`
 ```javascript
 Flo.register(type, callback, [context])
+// or pass the arguments in as an object
+Flo.register({type, callback, context})
 ```
 Registers an event callback for the event of specified type (string).
 Optional context is used as `this` for the callback.
